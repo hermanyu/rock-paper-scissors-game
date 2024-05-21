@@ -1,0 +1,88 @@
+* {
+    /* border: 2px solid red; */
+    font-family: "Montserrat", sans-serif;
+}
+
+div.scoreboard {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.scoreboard div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+}
+
+div.player-score {
+    color : white;
+    background-color: black;
+    flex: auto;
+}
+
+div.gamearea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1b99a;
+    height: 600px;
+}
+
+div.gamearea div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.choice {
+    height:100px;
+}
+div.image {
+    height: 400px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p.choice-text {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+img {
+    width: 100%;
+}
+
+div.controls {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.controls div {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+button {
+    height: 50px;
+    width: 125px;
+    border-radius: 12px;
+    font-weight: 900;
+}
+
+button.highlighted {
+    background-color: #120533;
+    border: 3px solid #000000;
+    color: white;
+    box-shadow: 2px;
+    font-weight: 900;
+}

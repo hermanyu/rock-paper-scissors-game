@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="rock-paper-scissors.css">
+</head>
+<body>
+    <div class="body">
+        <div class="scoreboard">
+            <div class="player-score">
+                <div class="name">
+                    <p>Player</p>
+                </div>
+                <div class="score">
+                    <p>0</p>
+                </div>
+            </div>
+            <div class="cpu-score">
+                <div class="name">
+                    <p>CPU</p>
+                </div>
+                <div class="score">
+                    <p>0</p>
+                </div>
+            </div>
+        </div>
+        <div class="gamearea">
+            <div class="player-area">
+                <div class="choice">
+                    <p class="choice-text"></p>
+                </div>
+                <div class="image">
+                    <img class="player-image" src="assets/rps_logo.png"></img>
+                </div>
+            </div>
+            <div class="cpu-area">
+                <div class="choice">
+                    <p class="choice-text"></p>
+                </div>
+                <div class="image">
+                    <img class="cpu-image" src="assets/rps_logo.png"></img>
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <div class="button">
+                <button class="choice-button" id="rock-button">Rock</button>
+            </div>
+            <div class="button">
+                <button class="choice-button" id="paper-button">Paper</button>
+            </div>
+            <div class="button">
+                <button class="choice-button" id="scissors-button">Scissors</button>
+            </div>
+        </div>
+    </div>
+    <script src="gameScript.js"></script>
+</body>
+</html>
